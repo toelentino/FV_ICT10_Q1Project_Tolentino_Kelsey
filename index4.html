@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Pining Shelf</title>
+
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+  <style>
+    body {
+    background-color: #ffffff;
+    font-family: "Times New Roman", Georgia, serif;
+    }
+
+    .topnav {
+      background-color: #dfdfdf;
+      overflow: hidden;
+    }
+
+    .topnav a {
+      float: left;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #4596c9;
+      color: #000000;
+    }
+
+    .topnav a.active {
+      background-color: #4596c9;
+      color: white;
+    }
+
+    .header {
+      padding: 60px;
+      text-align: center;
+      background-image: url(https://i.pinimg.com/736x/7b/e9/0c/7be90c95f767c2e070c84f25750dcb35.jpg);
+      background-repeat: no-repeat;
+      background-size: 500px;
+      background-position: right;
+      height: 270px;
+      color: #000000;
+      font-size: 22px;
+    }
+
+    .full-page {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      margin: 20px 0;
+    }
+
+    table {
+      width: 95%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #dfdfdf;
+      font-size: 1.2em;
+    }
+
+    #output {
+      margin: 30px auto;
+      width: 80%;
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+      font-size: 18px;
+      line-height: 1.6;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+   <div class="topnav">
+    <a href="index4.html">Home</a>
+    <a class="active" href="news.html">News</a>
+    <a class="active" href="order.html">Ordering Form</a>
+    <a class="active" href="about.html">About</a>
+    <a class="active" href="contact.html">Contact Us</a>
+  </div>
+
+  <div class="header">
+    <h1>The Pining Shelf</h1>
+    <p>You were meant to find this place. The shelf has been pining for you too.</p>
+  </div>
+
+  <div class="full-page">
+    <table>
+      <tr>
+        <th colspan="2">Our Finds</th>
+      </tr>
+      <tr>
+        <td>Product name</td>
+        <td>Price (₱)</td>
+      </tr>
+      <tr><td>One Piece</td><td>₱599.00</td></tr>
+      <tr><td>Fruits Basket</td><td>₱500.00</td></tr>
+      <tr><td>Bleach</td><td>₱599.00</td></tr>
+      <tr><td>Horimiya</td><td>₱550.00</td></tr>
+      <tr><td>Kimi ni Todoke</td><td>₱500.00</td></tr>
+    </table>
+  </div>
+
+  <div class="full-page">
+    <table>
+      <tr>
+        <th>Opening Hours:</th>
+        <td>We are open from 10:00 AM to 11:00 PM!</td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="output"></div>
+
+  <script type="py" src="main4.py"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+  <style>
+    body {
+    background-color: #ffffff;
+    font-family: "Times New Roman", Georgia, serif;
+    }
+
+    .topnav {
+      background-color: #dfdfdf;
+      overflow: hidden;
+    }
+
+    .topnav a {
+      float: left;
+      color: #000000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #4596c9;
+      color: #000000;
+    }
+
+    .topnav a.active {
+      background-color: #4596c9;
+      color: white;
+    }
+
+    .header {
+      padding: 60px;
+      text-align: center;
+      background-image: url(https://i.pinimg.com/736x/7b/e9/0c/7be90c95f767c2e070c84f25750dcb35.jpg);
+      background-repeat: no-repeat;
+      background-size: 500px;
+      background-position: right;
+      height: 270px;
+      color: #000000;
+      font-size: 22px;
+    }
+
+    .full-page {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff;
+      margin: 20px 0;
+    }
+
+    table {
+      width: 95%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #dfdfdf;
+      font-size: 1.2em;
+    }
+
+    .article-img {
+      width: 734px;
+      height: 261px;
+      object-fit: cover;
+      margin: 10px 0;
+      border-radius: 5px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+   <div class="topnav">
+    <a href="index4.html">Home</a>
+    <a class="active" href="news.html">News</a>
+    <a class="active" href="order.html">Ordering Form</a>
+    <a class="active" href="about.html">About</a>
+    <a class="active" href="contact.html">Contact Us</a>
+  </div>
+
+  <div class="header">
+    <h1>The Pining Shelf News</h1>
+    <p>Stories and updates from your favorite book haven.</p>
+  </div>
+
+  <div class="full-page">
+    <table>
+      <tr>
+        <th colspan="2">Latest News</th>
+      </tr>
+      <tr>
+        <td>
+          <h3>Grand Opening Success!!</h3>
+          <img src="https://i.pinimg.com/736x/e6/f6/6e/e6f66eefeb2dd079bd86708cf1ced73d.jpg" alt="Grand Opening" class="article-img">
+          <p>The Pining Shelf opened its doors to an overwhelming crowd of book lovers. Cozy reading corners and rare manga finds made the event unforgettable.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Café Corner Now Open! ☕</h3>
+          <img src="https://i.pinimg.com/1200x/5f/06/59/5f065984e4b8c2e1a05f4cdfc535b789.jpg" alt="Cafe Corner" class="article-img">
+          <p>Our new café corner is serving pastries and drinks inspired by your favorite titles. The bestseller so far? A matcha latte named after <i>Fruits Basket</i>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Monthly Book Club Launch</h3>
+          <img src="https://i.pinimg.com/1200x/76/44/b5/7644b5145d6b54252364fcc92933d9ec.jpg" alt="Book Club" class="article-img">
+          <p>Join our community book club! This month’s spotlight is <i>One Piece</i>, with lively discussions and fan theories shared over coffee.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
